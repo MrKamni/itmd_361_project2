@@ -1,122 +1,101 @@
-body {
-  background-image: url("../images/black.jpg");
-}
+/* Common Styles */
 
-#page-wrapper {
-  width: 960px;
-  margin: 0 auto;
-  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1); 
-  border-radius: 12px 12px 0px 0px; 
-}
-
-#header { 
-  position: relative;
-  margin-top: 40px;
-  border-radius: 12px 12px 0px 0px;
-}
-
-#header h1 { 
-  position: absolute;
-  left: 420px;
-  top:5px;
-  font-size: 3em;
-  font-family: 'Devonshire', cursive;
-  color: #E35335;
-}
-
-#header a#logo1 img { 
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-#header #toplink { 
-  text-decoration: none;
-  position: absolute;
-  top:-34px;
-  right: 10px;
-  color: white;
-  font-size: 1.8em;
-}
-
-#footer { 
-  background-color: #777;
-  height: 80px;
-  clear: both;
-}
-
-#content-wrapper { 
-  background-image: url("../images/repeating.png");
-  float: left;
-}
-
-#main-content { 
-  min-height: 300px;
-  width: 715px;
-  margin-right: 30px;
-  float: left;
-  margin-left: 15px;
-}
-
-h2 strong { 
-  font-size: 2em;
-  font-weight: 900;
-}
-
-.imageR { 
-  float: right;
-  border: 2px solid blue;
-  width: 300px;
-  padding: 5px;
-  background-color: white;
-  margin: 10px 0 10px 20px;
-}
-
-#side-content {
-	min-height: 150px;
-	width: 200px;
-	float: left;
-}
-
-#main-nav { 
-  float: left;
-  width: 100%;
-  background-color: #333;
-}
-
-#main-nav ul { 
-  list-style-type: none;
+/* Resetting default margin and padding */
+html, body {
   margin: 0;
   padding: 0;
-  float: left;
-  position: relative;
-  left:50%;
 }
 
-#main-nav ul li { 
-  float: left;
-  position: relative;
-  right: 50%;
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
 }
 
-#main-nav ul li a { 
-  padding: 10px 25px;
-  display: block;
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
   text-decoration: none;
-  color: #ccc;
 }
 
-#main-nav ul li a:hover { 
-  background-color: #ccc;
-  color: #333;
+main {
+  padding: 20px 0;
 }
 
-#center {
-  width: 960px;
+section {
+  margin-bottom: 40px;
+}
+
+h1, h2, h3 {
+  font-family: 'Devonshire', cursive;
+}
+
+iframe {
+  width: 100%;
+  height: 420px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
   text-align: center;
 }
 
-strong {
-  font-weight: 900;
-  font-size: 48px;
+/* Unique Styles for Specific Pages */
+
+/* Index Page */
+#index {
+  background-color: #1f1f1f; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+#index section {
+  border-bottom: 1px solid #666; /* Separate sections with a border */
+}
+
+/* Resume Page */
+#resume {
+  background-color: #292929; /* Darker background color */
+  color: #fff; /* Light text color */
+}
+
+#resume section {
+  border-bottom: 1px solid #666; /* Separate sections with a border */
+}
+
+/* Series Page */
+#series {
+  background-color: #1e1e1e; /* Even darker background color */
+  color: #fff; /* Light text color */
+}
+
+#series section {
+  border-bottom: 1px solid #666; /* Separate sections with a border */
 }
