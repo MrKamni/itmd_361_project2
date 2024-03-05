@@ -124,3 +124,7 @@ footer {
 #series h1, #series h2, #series h3 {
   font-family: 'Verdana', sans-serif;
 }
+
+#series a {
+  color: #ff4433;
+}
