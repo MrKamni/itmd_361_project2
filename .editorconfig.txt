@@ -1,0 +1,21 @@
+# Top-most EditorConfig file
+root = true
+
+# Set default charset
+[*]
+charset = utf-8
+
+# Set default line ending
+end_of_line = lf
+insert_final_newline = true
+
+# Indentation style and size
+[*.{js,jsx,ts,tsx,css,scss,html,xml,yml,yaml,json}]
+indent_style = space
+indent_size = 2
+
+# Trim trailing whitespace
+trim_trailing_whitespace = true
+
+# Ensure a newline at the end of the file
+insert_final_newline = true
