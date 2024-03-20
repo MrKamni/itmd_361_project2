@@ -1,7 +1,7 @@
 /* Common Styles */
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', 'Helvetica', sans-serif;
   line-height: 1.6;
   padding: 20px;
   background-color: #292929;
@@ -30,7 +30,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', 'Helvetica', sans-serif;
   color: #fff;
   text-decoration: none;
   transition: background-color 0.3s;
@@ -87,15 +87,62 @@ img {
   text-align: center;
 }
 
+#index h1 {
+  text-align: center;
+}
+
+#index p {
+  text-align: center;
+}
+
+#index footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+  clear: both;
+}
+
+
 /* Resume Page */
 #resume {
   background-color: #1e1e1e;
 }
 
+#resume main {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#resume h1 {
+  text-align: center;
+}
+
 #resume section {
   background-color: #252526;
   text-align: left;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+#resume h2 {
+  color: #fff;
+}
+
+#resume ol, #resume ul {
+  color: #fff;
+}
+
+#resume footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+}
+
 
 /* Series Page */
 #series {
@@ -114,6 +161,10 @@ img {
   box-sizing: border-box;
 }
 
+#series h1 {
+  text-align: center;
+}
+
 /* Positioning for first and second cards */
 #series section:nth-child(even) {
   clear: left; 
@@ -125,10 +176,10 @@ img {
   margin: 10px;
 }
 
-footer {
+#series footer {
   background-color: #333;
   color: #fff;
-  padding: 2px 0;
+  padding: 5px 0;
   text-align: center;
   clear: both;
 }
@@ -137,7 +188,7 @@ footer {
 
 /* Index Page */
 #index h1, #index h2, #index h3 {
-  font-family: 'Times New Roman', serif;
+  font-family: 'Times New Roman', 'Helvetica', serif;
 }
 
 #index a {
@@ -146,7 +197,7 @@ footer {
 
 /* Resume Page */
 #resume h1, #resume h2, #resume h3 {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
 #resume a {
@@ -155,7 +206,7 @@ footer {
 
 /* Series Page */
 #series h1, #series h2, #series h3 {
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Verdana', 'Helvetica', sans-serif;
 }
 
 #series a {
