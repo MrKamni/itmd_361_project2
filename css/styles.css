@@ -156,7 +156,7 @@ img {
 #series section {
   position: relative;
   width: calc(50% - 20px);
-  height: 720px;
+  height: 750px;
   float: left;
   box-sizing: border-box;
 }
